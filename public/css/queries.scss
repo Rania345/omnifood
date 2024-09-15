@@ -123,7 +123,7 @@
 
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
-    display: block;
+    display: block !important;
     z-index: 9999;
   }
 
@@ -164,13 +164,7 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: block;
-  }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: none;
-  }
 
   .main-nav-list {
     flex-direction: column;
